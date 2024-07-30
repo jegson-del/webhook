@@ -14,7 +14,7 @@ We should also be able to view a list of all the users that have been added to t
 
 ## Requirements
 
-- The form should be built using PHP and one of the following JS frameworks: React or Vue.
+- The form should be built using PHP and one of the following: React, Vue or Laravel Livewire.
 - The form should be secure and the data should be validated.
 - The form should allow the user to upload a picture.
 - The form should be able to be submitted to a database or CSV file.
