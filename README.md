@@ -8,25 +8,24 @@ After the form is submitted, the user should be redirected to a confirmation pag
 
 e.g "Hello `{name}`, thank you for submitting your details."
 
-The form should also allow the user to upload a picture, which will be stored in the database or CSV file.
+The form should also allow the user to upload a picture, which will be stored in the database.
 
-We should also be able to view a list of all the users that have been added to the database or CSV file.
+We should also be able to view a list of all the users that have been added to the database.
 
 ## Requirements
 
-- The form should be built using PHP and one of the following: React, Vue or Laravel Livewire.
-- The form should be secure and the data should be validated.
-- The form should allow the user to upload a picture.
-- The form should be able to be submitted to a database or CSV file.
-- The form should send a notification email after the form is submitted.
+- The form should be built using Laravel Blade, feel free to use a front-end framework of your choice too however this isn't a requirement.
+- The form should be secure and the data should be validated, including error messages.
+- The form should allow the user to upload a profile picture.
+- The form should be able to be submitted and stored to a database.
 - The form should integrate with an API endpoint to store the data (Credentials will be provided).
 - The form should redirect the user to a confirmation page after the form is submitted.
 - The form should display a message to the user on the confirmation page.
-- The form should allow us to view a list of all the users that have been added to the database or CSV file.
-- You should use relevant and appropriate tests to ensure the form works as expected.
-- All functionality should have relevant comments and error handling.
+- The form should allow us to view a list of all the users that have been added to the database.
 - The form should be responsive and accessible.
 - You should utilise TailwindCSS for styling.
+
+Feel free to add your own personal touch to the test also.
 
 We expect the following fields to be included in the form:
 
@@ -39,10 +38,8 @@ We expect the following fields to be included in the form:
 
 ## Submission
 
-Please clone this repository and commit any changes to a new branch.
-
 When you are satisfied with your submission, create a pull request and notify us to check it.
 
 ---
 
-The test is designed to be completed within in 10 hours. If you have any questions, please contact us.
+The test is designed to be completed within in 4 hours. If you have any questions, please contact us at max.solomon@businesscomparison.com.
