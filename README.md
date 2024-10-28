@@ -16,9 +16,8 @@ We should also be able to view a list of all the users that have been added to t
 
 - The form should be built using Laravel Blade, feel free to use a front-end framework of your choice too however this isn't a requirement.
 - The form should be secure and the data should be validated, including error messages.
-- The form should allow the user to upload a profile picture.
-- The form should be able to be submitted and stored to a database.
-- The form should integrate with an API endpoint to store the data (Credentials will be provided).
+- The form should be submitted and stored to a database.
+- The form should POST to an API endpoint after being stored in the database (Credentials will be provided).
 - The form should redirect the user to a confirmation page after the form is submitted.
 - The form should display a message to the user on the confirmation page.
 - The form should allow us to view a list of all the users that have been added to the database.
@@ -33,7 +32,6 @@ We expect the following fields to be included in the form:
 - Last Name
 - Email Address
 - Email Address Confirmation
-- Profile Picture
 - Terms and Conditions acceptance
 
 ## Submission
@@ -42,4 +40,4 @@ When you are satisfied with your submission, create a pull request and notify us
 
 ---
 
-The test is designed to be completed within in 4 hours. If you have any questions, please contact us at max.solomon@businesscomparison.com.
+The test is designed to be completed within in 3 hours. If you have any questions, please contact us at max.solomon@businesscomparison.com.
