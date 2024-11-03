@@ -52,7 +52,7 @@ class UserService implements UserServiceInterface
         $payload = $this->payload($user); // Retrieve User payload
         // Send HTTP POST request to the webhook URL
         try {
-            Http::post($webhookUrl, $payload);
+            Http::withOptions(['verify' => false])->post($webhookUrl, $payload);
         } catch (\Exception $e) {
             Log::error('Webhook failed: ' . $e->getMessage());
         }
